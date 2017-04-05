@@ -30,9 +30,9 @@ class diary(object):
     def nb_stud(self):
         print("There are",diary.nb_stud,"students")
         
-    def average_all_student(marks):
-        for i in marks : 
-            average = sum(i)/len(marks)
+    def average_all_student(self.marks):
+        for i in self.marks : 
+            average = sum(i)/len(self.marks)
         print(average)
 
 stud1=diary("Martin","Maurice",12)
